@@ -9,6 +9,11 @@
 .about {
     background-color: #1abc9c;
 }
+
+.debug {
+    border: 2px solid red;
+}
+
 /*------------------------------
         TABLET md >= 768px
 --------------------------------*/
