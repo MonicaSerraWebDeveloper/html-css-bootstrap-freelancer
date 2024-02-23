@@ -6,6 +6,11 @@
     background-color: #1abc9c;
 }
 
+.sm-bg-portfolio {
+    background-color: aqua;
+    border: 2px solid red;
+}
+
 /*------------------------------
         TABLET md >= 768px
 --------------------------------*/
