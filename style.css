@@ -23,7 +23,7 @@
 }
 
 .overlay-green {
-    width: 416px;
+    width: calc(100% - var(--bs-gutter-x));
     height: 100%;
     background-color: #1abc9c;
     top: 0;
