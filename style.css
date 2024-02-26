@@ -66,7 +66,7 @@
 }
 
 /*------------------------
-        FORM
+            FORM
 --------------------------*/
 
 .form-style {
@@ -82,4 +82,25 @@
 .ms-btn-custom {
     background-color: #1abc9c;
     color: #fff;
+}
+
+/*------------------------
+        FOOTER
+--------------------------*/
+
+.ms-border-social {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.ms-border-social i {
+    color: #fff;
+}
+
+.ms-link-color {
+    color: #1abc9c;
+    text-decoration: none;
 }
