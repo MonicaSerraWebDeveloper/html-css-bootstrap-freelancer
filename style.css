@@ -84,6 +84,10 @@
     color: #fff;
 }
 
+.ms-btn-custom:hover {
+    border: 1px solid #2c3e50;
+}
+
 /*------------------------
         FOOTER
 --------------------------*/
@@ -103,4 +107,14 @@
 .ms-link-color {
     color: #1abc9c;
     text-decoration: none;
+}
+
+.ms-border-social:hover {
+    background-color: #fff;
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
+}
+
+.ms-border-social:hover i {
+    color: #2c3e50;
 }
