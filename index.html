@@ -18,7 +18,7 @@
     <!-- Header  -->
     <header class="ms-bg-darkblue text-white sticky-top">
         <div class="container">
-            <nav class="navbar nav-underline navbar-expand-lg" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
                 <div class="container">
                 <a class="text-uppercase h4 text-decoration-none my-0" href="#">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -172,17 +172,21 @@
                 <div class="row justify-content-center">
                     <div class="col-8 col-md-8 col-lg-10">
                         <form>
-                            <div class="mb-3">
-                                <input type="text" placeholder="Name" class="form-control form-style">
+                            <div class="form-floating mb-3">
+                                <input type="text" placeholder="Full Name" class="form-control form-style">
+                                <label for="floatingInput">Full Name</label>
                             </div>
-                            <div class="mb-3">
+                            <div class="form-floating mb-3">
                               <input type="email" class="form-control form-style" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <label for="floatingInput">Email Address</label>
                             </div>
-                            <div class="mb-3">
+                            <div class="form-floating mb-3">
                                 <input type="tel" class="form-control form-style" placeholder="Phone Number" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <label for="floatingInput">Phone Number</label>
                             </div>
-                            <div class="mb-3">
+                            <div class="form-floating mb-3">
                                 <textarea class="form-control form-style" placeholder="Message" id="floatingTextarea2" rows="5" cols="50"></textarea>
+                                <label for="floatingInput">Message</label>
                             </div>
                             <button type="submit" class="btn ms-btn-custom">Send</button>
                         </form>
